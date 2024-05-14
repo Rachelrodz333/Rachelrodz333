@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Risk Information</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    pre {
+      background-color: #f5f5f5;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Risk Information</h1>
+  <pre>
+    {
+      "RiskHeaderInformation": {
+        "ResponseCode": 0,
+        "ResponseMessage": [
+          "Successful Completion"
+        ],
+        "RiskIdNumber": "",
+        "FederalEmployerIdentificationNumber": "NiEncV2:AQICAHiuzI2rO6MbHgO6YlCBOJXwlIuGGpEksyvDZ7zbGUXrxQGt8zkSCLGzeFk0x0d4TD+zAAAAZzBlBgkqhkiG9w0BBwagWDBWAgEAMFEGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMRWDm17VgImK+VFYOAgEQgCQZi28hX8B9X9dkB3glaFugJU920JIUfznkluOVBa9DEKuF6Wg=",
+        "StateCodeExperience": "FL"
+      },
+      "Business": [],
+      "RiskHistoryReport": {
+        "PrimaryInfo": {
+          "NameOfInsured": "LOUIE'S BISTRO",
+          "Address": {
+            "Address": "12275 MERCADO DR",
+            "City": "VENICE",
+            "State": "FL",
+            "Zipcode": "342931148"
+          },
+          "LegalNatureOfEntityCodeType": "LIMITED LIABILITY COMPANY (LLC)",
+          "EmployerLiabilityLimitAmountBodilyInjuryByAccidentEachAccidentAmount": 100000,
+          "EmployerLiabilityLimitAmountBodilyInjuryByDiseasePolicyLimitAmount": 500000,
+          "EmployerLiabilityLimitAmountBodilyInjuryByDiseaseEachEmployeeAmount": 100000,
+          "ExposureActExposureCoverageCodeType": "There is no USL&H coverage reported for this policy"
+        },
+        "PolicyCancelInfo": {
+          "CancellationDetails": [
+            {
+              "PolicyNumberIdentifier": "N9WC182493",
+              "PolicyEffectiveDate": "/Date(1707627600000-0500)/",
+              "CancellationEffectiveDate": "/Date(1716350400000-0400)/",
+              "CancellationReason": "FAILURE TO COMPLY WITH THE TERMS & CONDITIONS OR AUDIT FAILURE"
+            },
+            {
+              "PolicyNumberIdentifier": "N9WC371065",
+              "PolicyEffectiveDate": "/Date(1676091600000-0500)/",
+              "CancellationEffectiveDate": "/Date(1707627600000-0500)/",
+              "CancellationReason": "NONPAYMENT OF PREMIUM"
+            }
+          ]
+        },
+        "NonComplianceInfo": [],
+        "PayrollInfo": [
+          {
+            "PolicyStartDate": "/Date(1707627600000-0500)/",
+            "PolicyEndDate": "/Date(1739250000000-0500)/",
+            "HasAuditedData": false,
+            "HasMultiplePolicies": false,
+            "NotAllPolicyAuditedData": true,
+            "EstimatedStandardPremiumTotal": 2860,
+            "ReportedPremiumAmountTotal": 0,
+            "EstimatedPayrollAmountTotal": 234400,
+            "ReportedPayrollAmountTotal": 0,
+            "PayrollDetail": [
+              {
+                "StateCodeExperience": "FL",
+                "ClassificationCode": "9082",
+                "EstimatedExposureAmount": "234400",
+                "ReportedExposureAmount": ""
+              }
+            ]
+          },
+          {
+            "PolicyStartDate": "/Date(1676091600000-0500)/",
+            "PolicyEndDate": "/Date(1707627600000-0500)/",
+            "HasAuditedData": false,
+            "HasMultiplePolicies": false,
+            "NotAllPolicyAuditedData": true,
+            "EstimatedStandardPremiumTotal": 3446,
+            "ReportedPremiumAmountTotal": 0,
+            "EstimatedPayrollAmountTotal": 234400,
+            "ReportedPayrollAmountTotal": 0,
+            "PayrollDetail": [
+              {
+                "StateCodeExperience": "FL",
+                "ClassificationCode": "9082",
+                "EstimatedExposureAmount": "234400",
+                "ReportedExposureAmount": ""
+              }
+            ]
+          },
+          {
+            "PolicyStartDate": "/Date(1644555600000-0500)/",
+            "PolicyEndDate": "/Date(1676091600000-0500)/",
+            "HasAuditedData": false,
+            "HasMultiplePolicies": false,
+            "NotAllPolicyAuditedData": false,
+            "EstimatedStandardPremiumTotal": 0,
+            "ReportedPremiumAmountTotal": 0,
+            "EstimatedPayrollAmountTotal": 0,
+            "ReportedPayrollAmountTotal": 0,
+            "PayrollDetail": [
+              {
+                "StateCodeExperience": "FL",
+                "ClassificationCode": "9082",
+                "EstimatedExposureAmount": "",
+                "ReportedExposureAmount": ""
+              }
+            ]
+          },
+          {
+            "PolicyStartDate": "/Date(1613019600000-0500)/",
+            "PolicyEndDate": "/Date(1644555600000-0500)/",
+            "HasAuditedData": false,
+            "HasMultiplePolicies": false,
+            "NotAllPolicyAuditedData": false,
+            "EstimatedStandardPremiumTotal": 0,
+            "ReportedPremiumAmountTotal": 0,
+            "EstimatedPayrollAmountTotal": 0,
+            "ReportedPayrollAmountTotal": 0,
+            "PayrollDetail": [
+              {
+                "StateCodeExperience": "FL",
+                "ClassificationCode": "9082",
+                "EstimatedExposureAmount": "",
+                "ReportedExposureAmount": ""
+              }
+            ]
+          },
+          {
+            "PolicyStartDate": "/Date(1581397200000-0500)/",
+            "PolicyEndDate": "/Date(1613019600000-0500)/",
+            "HasAuditedData": false,
+            "HasMultiplePolicies": false,
+            "NotAllPolicyAuditedData": false,
+            "EstimatedStandardPremiumTotal": 0,
+            "ReportedPremiumAmountTotal": 0,
+            "EstimatedPayrollAmountTotal": 0,
+            "ReportedPayrollAmountTotal": 0,
+            "PayrollDetail": [
+              {
+                "StateCodeExperience": "FL",
+                "ClassificationCode": "9082",
+                "EstimatedExposureAmount": "",
+                "ReportedExposureAmount": ""
+              }
+            ]
+          }
+        ],
+        "LossInfo": [
+          {
+            "PolicyStartDate": "/Date(1707627600000-0500)/",
+            "PolicyEndDate": "/Date(1739250000000-0500)/",
+            "HasDeductiblePolicy": false,
+            "LossDetail": []
+          },
+          {
+            "PolicyStartDate": "/Date(1676091600000-0500)/",
+            "PolicyEndDate": "/Date(1707627600000-0500)/",
+            "HasDeductiblePolicy": false,
+            "LossDetail": []
+          },
+          {
+            "PolicyStartDate": "/Date(1644555600000-0500)/",
+            "PolicyEndDate": "/Date(1676091600000-0500)/",
+            "HasDeductiblePolicy": false,
+            "LossDetail": []
+          },
+          {
+            "PolicyStartDate": "/Date(1613019600000-0500)/",
+            "PolicyEndDate": "/Date(1644555600000-0500)/",
+            "HasDeductiblePolicy": false,
+            "LossDetail": []
+          },
+          {
+            "PolicyStartDate": "/Date(1581397200000-0500)/",
+            "PolicyEndDate": "/Date(1613019600000-0500)/",
+            "HasDeductiblePolicy": false,
+            "LossDetail": []
+          }
+        ]
+      }
+    }
+  </pre>
+</body>
+</html>
